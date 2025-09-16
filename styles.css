@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body
+{
+	background: #fff;
+	color: #000;
+	font-family: Libre Baskerville, Georgia, Serif;
+	font-size: 1rem;
+	hyphens: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a
+{
+	color: #025eee;
+	font-weight: bold;
+	outline: 0;
+	text-decoration: none;
+}
+
+img { max-width: 100%; }
+
+h3
+{
+	font-family: Inter, Helvetica;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h4
+{
+	font-family: Inter, Helvetica;
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+.below-page-title { margin-top: 24px; }
+
+.header
+{
+	font-family: Inter, Helvetica;
+	margin: 15px 15px 0px 15px;
+	text-align: center;
+}
+
+.languages
+{
+	color: #bbb;
+	font-family: Inter, Helvetica;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.main-div
+{
+	margin: 25px 15px 40px 15px;
+	line-height: 1.6;
+}
+
+.navigation
+{
+	display: grid;
+	font-size: 1.95rem;
+	font-weight: bold;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	height: 23px;
+	line-height: 0.8;
+	margin-top: 32px;
+}
+
+.page-title
+{
+	font-family: Inter, Helvetica;
+	font-size: 1.7rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+.triangle-left
+{
+	border-color: transparent #025eee transparent transparent;
+	border-style: solid;
+	border-width: 11.5px 19.9px 11.5px 0;
+	float: left;
+}
+
+.triangle-right
+{
+	border-color: transparent transparent transparent #025eee;
+	border-style: solid;
+	border-width: 11.5px 0 11.5px 19.9px;
+	float: right;
+}
+
+.triangle-left-link
+{
+	height: 23px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 20px;
+	z-index: 1;
+}
+
+.triangle-right-link
+{
+	height: 23px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 750px)
+{
+	body { width: 680px; }
+}
