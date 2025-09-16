@@ -41,6 +41,17 @@ h4
 	text-wrap: balance;
 }
 
+.arrow
+{
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	margin-left: -3px;
+	margin-bottom: 6px;
+	padding: 3px;
+	transform: rotate(-90deg);
+}
+
 .below-page-title { margin-top: 24px; }
 
 .header
