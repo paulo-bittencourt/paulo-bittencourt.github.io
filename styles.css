@@ -43,7 +43,7 @@ h4
 
 .arrow
 {
-	border: solid black;
+	border: solid #999;
 	border-width: 0 2px 2px 0;
 	display: inline-block;
 	margin-left: -4px;
