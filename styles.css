@@ -43,13 +43,14 @@ h4
 
 .arrow
 {
-	border: solid #999;
-	border-width: 0 2px 2px 0;
+	border: 1.7px;
+	border-style: solid solid none none;
+	color: #000;
 	display: inline-block;
-	margin-left: -4px;
+	height: 7px;
 	margin-bottom: 6px;
-	padding: 4px;
-	transform: rotate(-90deg);
+	margin-left: -4px;
+	width: 7px;
 }
 
 .below-page-title { margin-top: 24px; }
