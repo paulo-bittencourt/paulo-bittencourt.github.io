@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: Arrow;
+    src: url("media/Arrow.ttf");
+}
 
 html, body
 {
@@ -41,7 +45,7 @@ h4
 	text-wrap: balance;
 }
 
-.arrow
+/*.arrow
 {
 	border: 1.7px;
 	border-style: solid solid none none;
@@ -51,6 +55,14 @@ h4
 	margin-bottom: 6px;
 	margin-left: -4px;
 	width: 7px;
+}
+*/
+
+.arrow
+{
+	color: #000;
+	font-family: Arrow;
+	margin-left: 2px;
 }
 
 .below-page-title { margin-top: 24px; }
