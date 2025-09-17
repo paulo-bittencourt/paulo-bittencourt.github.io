@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 @font-face {
     font-family: Arrow;
     src: url("media/Arrow.ttf");
@@ -27,7 +28,7 @@ img { max-width: 100%; }
 
 h3
 {
-	font-family: Inter, Helvetica;
+	font-family: Helvetica, Sans-Serif;
 	font-size: 1.5rem;
 	font-weight: normal;
 	line-height: 1.1;
@@ -37,7 +38,7 @@ h3
 
 h4
 {
-	font-family: Inter, Helvetica;
+	font-family: Helvetica, Sans-Serif;
 	font-size: 1.3rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -69,7 +70,7 @@ h4
 
 .header
 {
-	font-family: Inter, Helvetica;
+	font-family: Helvetica, Sans-Serif;
 	margin: 15px 15px 0px 15px;
 	text-align: center;
 }
@@ -77,7 +78,7 @@ h4
 .languages
 {
 	color: #bbb;
-	font-family: Inter, Helvetica;
+	font-family: Helvetica, Sans-Serif;
 	margin-top: 25px;
 	text-align: center;
 }
@@ -101,7 +102,7 @@ h4
 
 .page-title
 {
-	font-family: Inter, Helvetica;
+	font-family: Helvetica, Sans-Serif;
 	font-size: 1.7rem;
 	font-weight: normal;
 	line-height: 1.1;
