@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: Arrow;
-    src: url("media/Arrow.ttf");
+    src: url('media/Arrow.ttf');
 }
 
 html, body
 {
 	background: #fff;
 	color: #000;
-	font-family: Libre Baskerville, Georgia, Serif;
+	font-family: 'Libre Baskerville', Georgia, Serif;
 	font-size: 1rem;
 	hyphens: auto;
 	margin: 0 auto;
@@ -63,7 +63,6 @@ h4
 {
 	color: #000;
 	font-family: Arrow;
-	margin-left: 2px;
 }
 
 .below-page-title { margin-top: 24px; }
