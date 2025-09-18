@@ -46,6 +46,16 @@ h4
 	text-wrap: balance;
 }
 
+h5
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.2rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
 li { font-family: Helvetica, Sans-Serif; }
 
 /*.arrow
