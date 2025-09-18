@@ -13,6 +13,7 @@ html, body
 	hyphens: auto;
 	margin: 0 auto;
 	padding: 0;
+	text-align: justify;
 }
 
 a
@@ -181,6 +182,11 @@ li { font-family: Helvetica, Sans-Serif; }
 	top: 0;
 	width: 20px;
 	z-index: 1;
+}
+
+@media only screen and (max-width: 749px)
+{
+	body { text-align: initial; }
 }
 
 @media only screen and (min-width: 750px)
