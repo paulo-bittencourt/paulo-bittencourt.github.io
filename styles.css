@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
 @font-face {
     font-family: Arrow;
     src: url('media/Arrow.ttf');
@@ -25,6 +24,7 @@ a
 }
 
 img { max-width: 100%; }
+.indent { margin-left: 20px; }
 
 h3
 {
@@ -45,6 +45,8 @@ h4
 	text-align: center;
 	text-wrap: balance;
 }
+
+li { font-family: Helvetica, Sans-Serif; }
 
 /*.arrow
 {
@@ -107,6 +109,32 @@ h4
 	line-height: 1.1;
 	text-align: center;
 	text-wrap: balance;
+}
+
+.quote
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.quote-author
+{
+	display: block;
+	font-size: 1rem;
+	font-weight: normal;
+	text-align: right;
+}
+
+.quote-source
+{
+	display: block;
+	font-size: 0.9rem;
+	font-weight: normal;
+	margin-top: -5px;
+	text-align: right;
 }
 
 .triangle-left
