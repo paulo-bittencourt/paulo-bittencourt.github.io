@@ -78,7 +78,21 @@ li { font-family: Helvetica, Sans-Serif; }
 	font-family: Arrow;
 }
 
-.below-page-title { margin-top: 24px; }
+.below-title { margin-top: 24px; }
+
+.caption
+{
+	font-family: Helvetica, Sans-Serif;
+	margin-top: 2px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+img.below-title
+{
+	border-radius: 8px;
+	margin-top: 15px;
+}
 
 .header
 {
@@ -112,16 +126,6 @@ li { font-family: Helvetica, Sans-Serif; }
 	margin-top: 32px;
 }
 
-.page-title
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.7rem;
-	font-weight: normal;
-	line-height: 1.1;
-	text-align: center;
-	text-wrap: balance;
-}
-
 .quote
 {
 	font-family: Helvetica, Sans-Serif;
@@ -129,6 +133,7 @@ li { font-family: Helvetica, Sans-Serif; }
 	font-weight: bold;
 	margin-left: 40px;
 	margin-right: 40px;
+	text-align: left;
 }
 
 .quote-author
@@ -146,6 +151,22 @@ li { font-family: Helvetica, Sans-Serif; }
 	font-weight: normal;
 	margin-top: -5px;
 	text-align: right;
+}
+
+.quote-book
+{
+	font-family: Helvetica, Sans-Serif;
+	margin-left: 20px;
+}
+
+.title
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.7rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
 }
 
 .triangle-left
@@ -182,6 +203,22 @@ li { font-family: Helvetica, Sans-Serif; }
 	top: 0;
 	width: 20px;
 	z-index: 1;
+}
+
+.video
+{
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.video iframe
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 @media only screen and (max-width: 749px)
