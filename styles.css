@@ -57,7 +57,13 @@ h5
 	text-wrap: balance;
 }
 
-li { font-family: Helvetica, Sans-Serif; }
+ol, ul { margin-bottom: -7px; }
+
+li
+{
+	font-family: Helvetica, Sans-Serif;
+	padding-bottom: 7px;
+}
 
 /*.arrow
 {
