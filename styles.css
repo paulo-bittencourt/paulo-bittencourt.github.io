@@ -223,7 +223,11 @@ li
 
 @media only screen and (max-width: 749px)
 {
-	body { text-align: initial; }
+	html, body
+	{
+		background: #fff;
+		text-align: initial;
+	}
 
 	.wrapper
 	{
