@@ -42,7 +42,6 @@ html, body
 	line-height: 1.1;
 	padding-top: 7px;
 	text-align: center;
-	text-wrap: balance;
 }
 
 .below-title { margin-top: 24px; }
@@ -105,6 +104,7 @@ a
 }
 
 img { max-width: 100%; }
+h1, h2 { text-wrap: balance; }
 
 h3
 {
