@@ -24,9 +24,11 @@ html, body
 .header
 {
 	font-family: Helvetica, Sans-Serif;
-	padding: 15px 15px 0px 15px;
+	padding: 18px 15px 0px 15px;
 	text-align: center;
 }
+
+.logo { width: 30%; }
 
 .main-div
 {
@@ -95,6 +97,14 @@ img.below-title
 	text-wrap: balance;
 }
 
+.languages
+{
+	color: #bbb;
+	font-family: Helvetica, Sans-Serif;
+	margin-top: 25px;
+	text-align: center;
+}
+
 a
 {
 	color: #025eee;
@@ -148,14 +158,6 @@ li
 {
 	color: #000;
 	font-family: Arrow;
-}
-
-.languages
-{
-	color: #bbb;
-	font-family: Helvetica, Sans-Serif;
-	margin-top: 25px;
-	text-align: center;
 }
 
 .navigation
@@ -228,6 +230,8 @@ li
 		background: #fff;
 		text-align: initial;
 	}
+
+	.logo { width: 40%; }
 
 	.wrapper
 	{
