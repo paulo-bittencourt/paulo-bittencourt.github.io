@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@font-face {
-    font-family: Arrow;
-    src: url('media/Arrow.ttf');
-}
+@font-face { font-family: Arrow; src: url('media/Arrow.ttf'); }
 
 html, body
 {
-	background: #fff;
+	background: #f5f5f5;
 	color: #000;
 	font-family: 'Libre Baskerville', Georgia, Serif;
 	font-size: 1rem;
@@ -14,6 +11,89 @@ html, body
 	margin: 0 auto;
 	padding: 0;
 	text-align: justify;
+}
+
+.wrapper
+{
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 14px;
+	margin-top: 14px;
+}
+
+.header
+{
+	font-family: Helvetica, Sans-Serif;
+	padding: 15px 15px 0px 15px;
+	text-align: center;
+}
+
+.main-div
+{
+	line-height: 1.6;
+	padding: 0px 15px 16px 15px;
+}
+
+.title
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.7rem;
+	font-weight: normal;
+	line-height: 1.1;
+	padding-top: 7px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+.below-title { margin-top: 24px; }
+
+img.below-title
+{
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+.indent { margin-left: 20px; }
+
+.quote
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left;
+}
+
+.quote-author
+{
+	display: block;
+	font-size: 1rem;
+	font-weight: normal;
+	text-align: right;
+}
+
+.quote-source
+{
+	display: block;
+	font-size: 0.9rem;
+	font-weight: normal;
+	margin-top: -5px;
+	text-align: right;
+}
+
+.quote-book
+{
+	font-family: Helvetica, Sans-Serif;
+	margin-left: 20px;
+}
+
+.caption
+{
+	font-family: Helvetica, Sans-Serif;
+	margin-top: 2px;
+	text-align: center;
+	text-wrap: balance;
 }
 
 a
@@ -25,7 +105,6 @@ a
 }
 
 img { max-width: 100%; }
-.indent { margin-left: 20px; }
 
 h3
 {
@@ -65,46 +144,10 @@ li
 	padding-bottom: 7px;
 }
 
-/*.arrow
-{
-	border: 1.7px;
-	border-style: solid solid none none;
-	color: #000;
-	display: inline-block;
-	height: 7px;
-	margin-bottom: 6px;
-	margin-left: -4px;
-	width: 7px;
-}
-*/
-
 .arrow
 {
 	color: #000;
 	font-family: Arrow;
-}
-
-.below-title { margin-top: 24px; }
-
-.caption
-{
-	font-family: Helvetica, Sans-Serif;
-	margin-top: 2px;
-	text-align: center;
-	text-wrap: balance;
-}
-
-img.below-title
-{
-	border-radius: 8px;
-	margin-top: 15px;
-}
-
-.header
-{
-	font-family: Helvetica, Sans-Serif;
-	margin: 15px 15px 0px 15px;
-	text-align: center;
 }
 
 .languages
@@ -113,12 +156,6 @@ img.below-title
 	font-family: Helvetica, Sans-Serif;
 	margin-top: 25px;
 	text-align: center;
-}
-
-.main-div
-{
-	margin: 25px 15px 40px 15px;
-	line-height: 1.6;
 }
 
 .navigation
@@ -130,49 +167,6 @@ img.below-title
 	height: 23px;
 	line-height: 0.8;
 	margin-top: 32px;
-}
-
-.quote
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.1rem;
-	font-weight: bold;
-	margin-left: 40px;
-	margin-right: 40px;
-	text-align: left;
-}
-
-.quote-author
-{
-	display: block;
-	font-size: 1rem;
-	font-weight: normal;
-	text-align: right;
-}
-
-.quote-source
-{
-	display: block;
-	font-size: 0.9rem;
-	font-weight: normal;
-	margin-top: -5px;
-	text-align: right;
-}
-
-.quote-book
-{
-	font-family: Helvetica, Sans-Serif;
-	margin-left: 20px;
-}
-
-.title
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.7rem;
-	font-weight: normal;
-	line-height: 1.1;
-	text-align: center;
-	text-wrap: balance;
 }
 
 .triangle-left
@@ -230,9 +224,17 @@ img.below-title
 @media only screen and (max-width: 749px)
 {
 	body { text-align: initial; }
+
+	.wrapper
+	{
+		border-radius: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
 }
 
 @media only screen and (min-width: 750px)
 {
-	body { width: 680px; }
+	body { width: 730px; }
+	.main-div { padding: 0px 39px 39px 39px; }
 }
