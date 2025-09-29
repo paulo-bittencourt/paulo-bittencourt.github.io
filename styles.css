@@ -239,13 +239,15 @@ li
 		background: #fff;
 		text-align: initial;
 	}
-
+	
+	.logo { width: 40%; }
+	
 	.navigation-button
 	{
 		top: 15px;
 		left: 15px;
 	}
-
+	
 	.wrapper
 	{
 		border-radius: 0px;
@@ -253,8 +255,6 @@ li
 		margin-top: 0px;
 	}
 }
-
-.logo { width: 40%; }
 
 @media only screen and (min-width: 750px)
 {
