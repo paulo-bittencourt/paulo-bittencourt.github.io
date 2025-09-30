@@ -42,7 +42,7 @@ html, body
 .main-div
 {
 	line-height: 1.6;
-	padding: 0px 15px 16px 15px;
+	padding: 0px 15px 5px 15px;
 }
 
 .title
@@ -172,48 +172,10 @@ li
 .navigation
 {
 	display: grid;
-	font-size: 1.95rem;
-	font-weight: bold;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	height: 23px;
-	line-height: 0.8;
 	margin-top: 32px;
-}
-
-.triangle-left
-{
-	border-color: transparent #025eee transparent transparent;
-	border-style: solid;
-	border-width: 11.5px 19.9px 11.5px 0;
-	float: left;
-}
-
-.triangle-right
-{
-	border-color: transparent transparent transparent #025eee;
-	border-style: solid;
-	border-width: 11.5px 0 11.5px 19.9px;
-	float: right;
-}
-
-.triangle-left-link
-{
-	height: 23px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 20px;
-	z-index: 1;
-}
-
-.triangle-right-link
-{
-	height: 23px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 20px;
-	z-index: 1;
+	margin-left: -2px;
+	margin-right: -2px;
 }
 
 .video
@@ -239,15 +201,15 @@ li
 		background: #fff;
 		text-align: initial;
 	}
-	
+
 	.logo { width: 40%; }
-	
+
 	.navigation-button
 	{
 		top: 15px;
 		left: 15px;
 	}
-	
+
 	.wrapper
 	{
 		border-radius: 0px;
@@ -259,5 +221,5 @@ li
 @media only screen and (min-width: 750px)
 {
 	body { width: 730px; }
-	.main-div { padding: 0px 39px 39px 39px; }
+	.main-div { padding: 0px 39px 30px 39px; }
 }
