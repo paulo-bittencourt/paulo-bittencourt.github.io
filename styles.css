@@ -63,12 +63,21 @@ img.below-title
 	margin-top: 15px;
 }
 
+.copyright
+{
+	color: #999;
+	font-family: Helvetica, Sans-Serif;
+	margin-top: -15px;
+	text-align: center;
+}
+
+.below-copyright { margin-top: 23px; }
 .indent { margin-left: 20px; }
 
 .quote
 {
 	font-family: Helvetica, Sans-Serif;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -78,7 +87,7 @@ img.below-title
 .quote-author
 {
 	display: block;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: normal;
 	text-align: right;
 }
@@ -86,7 +95,7 @@ img.below-title
 .quote-source
 {
 	display: block;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: normal;
 	margin-top: -5px;
 	text-align: right;
