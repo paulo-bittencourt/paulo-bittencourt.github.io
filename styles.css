@@ -33,6 +33,7 @@ html, body
 .header
 {
 	font-family: Helvetica, Sans-Serif;
+	hyphens: none;
 	padding: 18px 15px 0px 15px;
 	text-align: center;
 }
