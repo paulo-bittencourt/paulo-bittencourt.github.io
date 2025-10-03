@@ -1,5 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@font-face { font-family: Arrow; src: url('media/Arrow.ttf'); }
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 html, body
 {
@@ -68,6 +87,7 @@ img.below-title
 {
 	color: #999;
 	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
 	margin-top: -15px;
 	text-align: center;
 }
@@ -105,12 +125,21 @@ img.below-title
 .quote-book
 {
 	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
 	margin-left: 20px;
+}
+
+.quote-number
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 0.9rem;
+	text-align: center;
 }
 
 .caption
 {
 	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
 	margin-top: 2px;
 	text-align: center;
 	text-wrap: balance;
@@ -120,7 +149,38 @@ img.below-title
 {
 	color: #bbb;
 	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
 	margin-top: 25px;
+	text-align: center;
+}
+
+.helvetica
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+}
+
+.religions-symbols
+{
+	line-height: 0;
+	margin-bottom: 29px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.religions-symbols img { height: 13px; }
+
+.green-button
+{
+	background: #4e8e01;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 11px 13px;
 	text-align: center;
 }
 
@@ -170,13 +230,14 @@ ol, ul { margin-bottom: -7px; }
 li
 {
 	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
 	padding-bottom: 7px;
 }
 
 .arrow
 {
-	color: #000;
-	font-family: Arrow;
+	color: #999;
+	font-family: 'Libre Baskerville';
 }
 
 .navigation
@@ -233,3 +294,5 @@ li
 	body { width: 730px; }
 	.main-div { padding: 0px 39px 30px 39px; }
 }
+
+/* xxx */
