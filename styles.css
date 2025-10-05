@@ -32,20 +32,11 @@ html, body
 	text-align: justify;
 }
 
-.navigation-button
-{
-	height: 23px;
-	width: 23px;
-	position: absolute;
-	top: 40px;
-	left: 40px;
-}
-
 .wrapper
 {
-	background-color: white;
+	background-color: #fff;
 	border-radius: 8px;
-	margin-bottom: 14px;
+	margin-bottom: 15px;
 	margin-top: 14px;
 }
 
@@ -53,17 +44,35 @@ html, body
 {
 	font-family: Helvetica, Sans-Serif;
 	hyphens: none;
-	padding: 18px 15px 0px 15px;
+	padding: 15px 15px 0px 15px;
 	text-align: center;
 }
-
-.logo { width: 30%; }
 
 .main-div
 {
 	line-height: 1.6;
-	padding: 0px 15px 5px 15px;
+	padding: 0px 15px 12px 15px;
 }
+
+.navigation
+{
+	display: grid;
+	font-size: 1.4rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	line-height: 1.1;
+	margin-right: -2px;
+	margin-top: 32px;
+}
+
+.navigation-button-corner
+{
+	font-size: 1.4rem;
+	position: absolute;
+	top: 14px;
+	left: 15px;
+}
+
+.logo { width: 30%; }
 
 .title
 {
@@ -162,6 +171,8 @@ img.below-title
 
 .religions-symbols
 {
+	color: #999;
+	font-size: 1.3rem;
 	line-height: 0;
 	margin-bottom: 29px;
 	margin-top: 30px;
@@ -240,15 +251,6 @@ li
 	font-family: 'Libre Baskerville';
 }
 
-.navigation
-{
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	margin-top: 32px;
-	margin-left: -2px;
-	margin-right: -2px;
-}
-
 .video
 {
 	height: 0;
@@ -291,8 +293,15 @@ li
 
 @media only screen and (min-width: 750px)
 {
-	body { width: 730px; }
-	.main-div { padding: 0px 39px 30px 39px; }
+	html, body { width: 730px; }
+	.main-div { padding: 0px 39px 37px 39px; }
+
+	.navigation-button-corner
+	{
+		position: absolute;
+		top: 39px;
+		left: 40px;
+	}
 }
 
 /* xxx */
