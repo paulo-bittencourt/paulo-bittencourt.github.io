@@ -59,9 +59,9 @@ html, body
 	display: grid;
 	font-size: 1.4rem;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	line-height: 1.1;
+	line-height: 1.15;
 	margin-right: -2px;
-	margin-top: 32px;
+	margin-top: 31px;
 }
 
 .navigation-button-corner
