@@ -72,6 +72,14 @@ html, body
 	left: 15px;
 }
 
+.index-links
+{
+	margin-top: -3px;
+	font-size: 1rem;
+	line-height: 1.68;
+	font-family: Libre Baskerville, Georgia, Serif;
+}
+
 .logo { width: 28.5%; }
 
 .title
@@ -301,9 +309,13 @@ li
 
 	.navigation-button-corner
 	{
-		position: absolute;
 		top: 39px;
 		left: 40px;
 	}
-}
 
+	.index-links
+	{
+		font-size: 1.1rem;
+		line-height: 1.4;
+	}
+}
