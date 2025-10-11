@@ -209,15 +209,13 @@ img.below-title
 .contact-links
 {
 	font-size: 0.85rem;
-	margin: -15px 0px 27px 0px;
-	text-align: left;
+	margin: 36px 0px 26px 0px;
 }
 
 .contact-links p
 {
 	margin: 0;
 	padding-left: 20px;
-	text-align: left;
 	text-indent: -20px;
 }
 
@@ -337,6 +335,6 @@ li
 	.contact-links
 	{
 		font-size: 0.9rem;
-		margin: -17px 0px 25px 0px;
+		margin: 36px 0px 26px 0px;
 	}
 }
