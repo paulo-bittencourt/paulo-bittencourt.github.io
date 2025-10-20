@@ -215,6 +215,17 @@ img.below-title
 	text-align: center;
 }
 
+.counseling
+{
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	padding: 20px;
+	text-align: center;
+}
+
 .contact-links
 {
 	font-size: 0.85rem;
