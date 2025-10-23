@@ -36,8 +36,8 @@ html, body
 {
 	background-color: #fff;
 	border-radius: 8px;
-	margin-bottom: 15px;
 	margin-top: 14px;
+	margin-bottom: 15px;
 }
 
 .header
@@ -61,8 +61,8 @@ html, body
 	font-size: 1.4rem;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	line-height: 1.15;
-	margin-right: -2px;
 	margin-top: 31px;
+	margin-right: -2px;
 }
 
 .navigation-button-corner
@@ -111,9 +111,8 @@ img.below-title
 	text-align: center;
 }
 
-.below-copyright { margin-top: 23px; }
+.below-copyright { margin-top: 22px; }
 .indent { margin-left: 20px; }
-blockquote { margin: 0; }
 cite { font-style: normal; }
 
 .quote
@@ -123,8 +122,8 @@ cite { font-style: normal; }
 	font-weight: bold;
 	letter-spacing: 0.01rem;
 	line-height: 1.4;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 22px;
+	margin-bottom: 23px;
 	text-align: left;
 }
 
@@ -162,7 +161,7 @@ cite { font-style: normal; }
 	text-align: center;
 }
 
-.numbered-quotes { margin-top: -12px; }
+.numbered-quotes { margin: -12px 0px 0px 0px; }
 
 .caption
 {
@@ -197,8 +196,8 @@ cite { font-style: normal; }
 	color: #999;
 	font-size: 1.3rem;
 	line-height: 0;
-	margin-bottom: 29px;
 	margin-top: 30px;
+	margin-bottom: 29px;
 	text-align: center;
 }
 
@@ -315,8 +314,8 @@ li:not(:first-child) { margin-top: 7px; }
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	left: 0;
 	top: 0;
+	left: 0;
 }
 
 @media only screen and (max-width: 749px)
@@ -338,8 +337,8 @@ li:not(:first-child) { margin-top: 7px; }
 	.wrapper
 	{
 		border-radius: 0px;
-		margin-bottom: 0px;
 		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 }
 
