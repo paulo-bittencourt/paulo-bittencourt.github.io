@@ -113,6 +113,8 @@ img.below-title
 
 .below-copyright { margin-top: 23px; }
 .indent { margin-left: 20px; }
+blockquote { margin: 0; }
+cite { font-style: normal; }
 
 .quote
 {
@@ -156,9 +158,11 @@ img.below-title
 {
 	font-family: Helvetica, Sans-Serif;
 	font-size: 0.9rem;
-	letter-spacing: 0.01rem;
+	margin-top: 16px;
 	text-align: center;
 }
+
+.numbered-quotes { margin-top: -12px; }
 
 .caption
 {
@@ -281,6 +285,8 @@ h5
 	text-align: center;
 	text-wrap: balance;
 }
+
+ul, ol { margin-left: -19px; }
 
 li
 {
