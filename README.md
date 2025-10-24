@@ -1,1 +1,5 @@
-This is not a commercial, but an educational website. Its goal is to promote freethinking. 
+Ateísmo, Humanismo e Livre Pensamento. 
+
+Livros “Liberto da Religião”, “Perdendo Tempo Com Deus” e “Com Zeus Não Se Brinca”, de Paulo Bittencourt. 
+
+Visite: https://ateismo-bittencourt.github.io 
