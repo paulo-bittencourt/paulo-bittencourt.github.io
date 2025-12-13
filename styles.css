@@ -39,12 +39,160 @@ html, body
 	text-align: justify;
 }
 
-.wrapper
+a
 {
-	background-color: #fff;
-	border-radius: 8px;
-	margin-top: 14px;
-	margin-bottom: 15px;
+	color: #025eee;
+	font-weight: bold;
+	outline: 0;
+	text-decoration: none;
+}
+
+.arrow
+{
+	color: #999;
+	font-family: 'Libre Baskerville';
+}
+
+.below-copyright { margin-top: 22px; }
+.below-h1 { margin-top: -6px; }
+.below-h5 { margin-top: -13px; }
+
+.caption
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	line-height: 1.3;
+	margin-top: 4px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+cite { font-style: normal; }
+
+.contact-links
+{
+	font-size: 0.85rem;
+	margin: 36px 0px 26px 0px;
+}
+
+.contact-links p
+{
+	margin: 0;
+	padding-left: 20px;
+	text-indent: -20px;
+}
+
+.copyright
+{
+	color: #999;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	margin-top: -26px;
+	text-align: center;
+}
+
+.counseling
+{
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	margin: 33px 22px 0px 22px;
+	padding: 20px;
+	text-align: center;
+}
+
+.counseling li { text-align: left; }
+
+.footer
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 0.9rem;
+	letter-spacing: 0.01rem;
+	margin-top: 23px;
+}
+
+.green-button
+{
+	background: #4e8e01;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	letter-spacing: 0.01rem;
+	line-height: 1.2;
+	padding: 11px 13px;
+	text-align: center;
+}
+
+h1
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.7rem;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 30px 0px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h2
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.5rem;
+	margin: 7px 0px;
+	text-wrap: balance;
+}
+
+h3
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.2rem;
+	margin: -1px 0px;
+	text-wrap: balance;
+}
+
+h4
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: normal;
+	margin: 9px 0px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h5
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 38px 0px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h6
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+.helvetica
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
 }
 
 .header
@@ -61,9 +209,53 @@ html, body
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(153, 153, 153, 1), rgba(0, 0, 0, 0));
 	border: 0;
 	height: 1px;
-	margin-top: -7px;
+	margin-top: -2px;
 	margin-bottom: 23px;
 }
+
+img { max-width: 100%; }
+
+img.below-copyright
+{
+	border-radius: 4px;
+	margin-top: 14px;
+}
+
+img.below-h1
+{
+	border-radius: 4px;
+	margin-top: 4px;
+}
+
+.indent { margin-left: 20px; }
+
+.index-links
+{
+	font-size: 1rem;
+	font-family: 'Libre Baskerville', Georgia, Serif;
+	line-height: 1.5;
+	margin-top: 9px;
+}
+
+.languages
+{
+	color: #bbb;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	margin-top: 25px;
+	text-align: center;
+}
+
+li
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+}
+
+li:not(:first-child) { margin-top: 7px; }
+.logo { width: 30.6%; }
 
 .main-div
 {
@@ -71,12 +263,30 @@ html, body
 	padding: 0px 15px 12px 15px;
 }
 
+.navigation
+{
+	display: grid;
+	font-size: 1.4rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	line-height: 1.15;
+	margin-top: 19px;
+	margin-right: -2px;
+}
+
+.navigation-button-top-left
+{
+	font-size: 1.4rem;
+	position: absolute;
+	top: 13px;
+	left: 15px;
+}
+
 .navigation-separator
 {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(153, 153, 153, 1), rgba(0, 0, 0, 0));
 	border: 0;
 	height: 1px;
-	margin-top: -10px;
+	margin-top: -5px;
 }
 
 .navigation-separator-no-languages
@@ -87,65 +297,14 @@ html, body
 	margin-top: 31px;
 }
 
-.navigation
+.numbered-quotes { margin: -12px 0px 0px 0px; }
+
+.poem
 {
-	display: grid;
-	font-size: 1.4rem;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	line-height: 1.15;
-	margin-top: 14px;
-	margin-right: -2px;
+	margin: 0px;
+	margin-left: 15px;
+	text-indent: -15px;
 }
-
-.navigation-button-corner
-{
-	font-size: 1.4rem;
-	position: absolute;
-	top: 13px;
-	left: 15px;
-}
-
-.index-links
-{
-	font-size: 1rem;
-	font-family: 'Libre Baskerville', Georgia, Serif;
-	line-height: 1.3;
-	margin-top: -7px;
-}
-
-.logo { width: 30.6%; }
-
-.title
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.7rem;
-	font-weight: normal;
-	line-height: 1.1;
-	padding-top: 7px;
-	text-align: center;
-}
-
-.below-title { margin-top: 24px; }
-
-img.below-title
-{
-	border-radius: 4px;
-	margin-top: 15px;
-}
-
-.copyright
-{
-	color: #999;
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
-	margin-top: -15px;
-	text-align: center;
-}
-
-.below-copyright { margin-top: 22px; }
-.indent { margin-left: 20px; }
-cite { font-style: normal; }
 
 .quote
 {
@@ -169,15 +328,6 @@ cite { font-style: normal; }
 	text-align: right;
 }
 
-.quote-source
-{
-	display: block;
-	font-size: 1rem;
-	font-weight: normal;
-	margin-top: -5px;
-	text-align: right;
-}
-
 .quote-book
 {
 	font-family: Helvetica, Sans-Serif;
@@ -194,34 +344,13 @@ cite { font-style: normal; }
 	text-align: center;
 }
 
-.numbered-quotes { margin: -12px 0px 0px 0px; }
-
-.caption
+.quote-source
 {
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
-	line-height: 1.3;
-	margin-top: 2px;
-	text-align: center;
-	text-wrap: balance;
-}
-
-.languages
-{
-	color: #bbb;
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
-	margin-top: 25px;
-	text-align: center;
-}
-
-.helvetica
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
+	display: block;
+	font-size: 1rem;
+	font-weight: normal;
+	margin-top: -5px;
+	text-align: right;
 }
 
 .religions-symbols
@@ -229,111 +358,20 @@ cite { font-style: normal; }
 	color: #999;
 	font-size: 1.3rem;
 	line-height: 0;
-	margin-top: 30px;
-	margin-bottom: 29px;
+	margin-top: 39px;
+	margin-bottom: 36px;
 	text-align: center;
 }
 
-.religions-symbols img { height: 13px; }
-
-.green-button
+.top-links
 {
-	background: #4e8e01;
-	border-radius: 4px;
-	color: #fff;
-	display: inline-block;
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.1rem;
-	font-weight: bold;
-	letter-spacing: 0.01rem;
-	line-height: 1.2;
-	padding: 11px 13px;
-	text-align: center;
-}
-
-.counseling
-{
-	background-color: #f5f5f5;
-	border-radius: 10px;
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
-	padding: 20px;
-	text-align: center;
-}
-
-.contact-links
-{
-	font-size: 0.85rem;
-	margin: 36px 0px 26px 0px;
-}
-
-.contact-links p
-{
-	margin: 0;
-	padding-left: 20px;
-	text-indent: -20px;
-}
-
-a
-{
-	color: #025eee;
-	font-weight: bold;
-	outline: 0;
-	text-decoration: none;
-}
-
-img { max-width: 100%; }
-h1, h2 { text-wrap: balance; }
-
-h3
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.5rem;
-	font-weight: normal;
-	line-height: 1.1;
-	text-align: center;
-	text-wrap: balance;
-}
-
-h4
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.3rem;
-	font-weight: normal;
-	letter-spacing: 0.01rem;
-	line-height: 1.2;
-	text-align: center;
-	text-wrap: balance;
-}
-
-h5
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.2rem;
-	font-weight: normal;
-	letter-spacing: 0.01rem;
-	line-height: 1.1;
-	text-align: center;
-	text-wrap: balance;
+	color: #bbb;
+	font-size: 1rem;
+	line-height: 1.3;
+	margin-top: 28px;
 }
 
 ul, ol { margin-left: -19px; }
-
-li
-{
-	font-family: Helvetica, Sans-Serif;
-	font-size: 1.05rem;
-	letter-spacing: 0.01rem;
-}
-
-li:not(:first-child) { margin-top: 7px; }
-
-.arrow
-{
-	color: #999;
-	font-family: 'Libre Baskerville';
-}
 
 .video
 {
@@ -349,6 +387,14 @@ li:not(:first-child) { margin-top: 7px; }
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.wrapper
+{
+	background-color: #fff;
+	border-radius: 8px;
+	margin-top: 14px;
+	margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 749px)
@@ -378,7 +424,22 @@ li:not(:first-child) { margin-top: 7px; }
 @media only screen and (min-width: 750px)
 {
 	html, body { width: 730px; }
+
+	.contact-links
+	{
+		font-size: 0.9rem;
+		margin: 36px 0px 26px 0px;
+	}
+
+	.counseling li { text-align: justify; }
 	.header { padding: 14px 39px 0px 39px; }
+
+	.index-links
+	{
+		font-size: 1.1rem;
+		line-height: 1.3;
+	}
+
 	.main-div { padding: 0px 39px 37px 39px; }
 
 	.navigation-button-corner
@@ -387,11 +448,9 @@ li:not(:first-child) { margin-top: 7px; }
 		left: 40px;
 	}
 
-	.index-links { font-size: 1.1rem; }
-
-	.contact-links
+	.poem
 	{
-		font-size: 0.9rem;
-		margin: 36px 0px 26px 0px;
+		margin-left: 40px;
+		text-indent: -40px;
 	}
 }
