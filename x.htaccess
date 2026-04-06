@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RedirectMatch 301 ^/fotografia/?$ https://ateismo-bittencourt.github.io/fotografia
