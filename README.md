@@ -1,6 +1,10 @@
-Ateísmo, Humanismo e Livre Pensamento.
+Atheism, Humanism and Freethought — Books “Liberated from Religion” and “Wasting Time on God”, by Paulo Bittencourt.
 
-Livros “Liberto da Religião”, “Perdendo Tempo Com Deus” e “Com Zeus Não Se Brinca”, de Paulo Bittencourt.
+Ateísmo, Humanismo e Livre Pensamento — Livros “Liberto da Religião”, “Perdendo Tempo Com Deus” e “Com Zeus Não Se Brinca”, de Paulo Bittencourt.
+
+Ateísmo, Humanismo y Libre Pensamiento — Libro “Liberto de la Religión”, de Paulo Bittencourt.
+
+Atheismus, Humanismus und Freidenkertum — Bücher “Liberated from Religion” und “Wasting Time on God”, von Paulo Bittencourt.
 
 <a href="https://bittencourt.pages.dev/books">Download Paulo Bittencourt’s Books</a>
 
@@ -145,31 +149,3 @@ Livros “Liberto da Religião”, “Perdendo Tempo Com Deus” e “Com Zeus N
 <a href="https://bittencourt-de.pages.dev/bossa-nova-musik">Paulo Bittencourt Singt Brasilianischen Jazz</a>
 
 <a href="https://bittencourt-de.pages.dev/kontakt">Über und Kontakt</a>
-
-<a href="https://free-from-religion.github.io/fanaticism">A Childhood of Fanaticism</a>
-
-<a href="https://free-from-religion.github.io/fundamentalist">From Fundamentalist Missionary to Science Teacher</a>
-
-<a href="https://free-from-religion.github.io/science">Science and Death Convinced Me</a>
-
-<a href="https://free-from-religion.github.io/leaving-islam">Free of Religion</a>
-
-<a href="https://free-from-religion.github.io/atheism">My Journey to Atheism</a>
-
-<a href="https://free-from-religion.github.io/atheist">God Made Me an Atheist</a>
-
-<a href="https://free-from-religion.github.io/freedom">I Am Free</a>
-
-<a href="https://free-from-religion.github.io/full-atheist">I’m Now a Full Atheist</a>
-
-<a href="https://free-from-religion.github.io/jesus">My Story With Religion</a>
-
-<a href="https://free-from-religion.github.io/cult">From Being in a Cult to Becoming an Atheist</a>
-
-<a href="https://free-from-religion.github.io/apocalypse">Apocalypticism Impugned the Joys of My One Life</a>
-
-<a href="https://free-from-religion.github.io/healing">Recovering from Religion</a>
-
-<a href="https://free-from-religion.github.io/therapy">My Journey to Sanity</a>
-
-<a href="https://free-from-religion.github.io/contact">About</a>
